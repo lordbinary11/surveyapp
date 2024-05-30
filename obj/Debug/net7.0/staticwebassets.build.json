@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mS168E6DLPaRAci4q0M2g/US0RKHySvyP0d2m5lnxDg=",
+  "Hash": "L80DO58+w18cppXcg/g17ipR6Iyh1jPjwxCxkfqUJhY=",
   "Source": "SurveyApp",
   "BasePath": "_content/SurveyApp",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\about.css",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "css/about.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
+    },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\dashboard.css",
       "SourceId": "SurveyApp",
