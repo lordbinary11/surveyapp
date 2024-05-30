@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L80DO58+w18cppXcg/g17ipR6Iyh1jPjwxCxkfqUJhY=",
+  "Hash": "WQs8shviCo29rJvL0lxlxhJ0tmArv5XMxqFHRsLxoT4=",
   "Source": "SurveyApp",
   "BasePath": "_content/SurveyApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\template.css",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "css/template.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\template.css"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\fonts\\Inter\\Inter-Black.ttf",
@@ -814,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\survey.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\images\\sv.jpg",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "images/sv.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sv.jpg"
     }
   ]
 }
