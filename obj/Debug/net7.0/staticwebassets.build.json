@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WQs8shviCo29rJvL0lxlxhJ0tmArv5XMxqFHRsLxoT4=",
+  "Hash": "fD5mNuECMi2nMgoDYYujGhYaTfxcfx3yOaK+Oa3dTPw=",
   "Source": "SurveyApp",
   "BasePath": "_content/SurveyApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\surveylist.css",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "css/surveylist.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\surveylist.css"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\template.css",

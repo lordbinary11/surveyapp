@@ -13,7 +13,8 @@
     /* Add more src declarations for other font formats if needed */
 }
 body{
-    background-color: #fff;
+    background: rgb(229,228,246);
+    background: linear-gradient(90deg, rgba(229,228,246,1) 0%, rgba(226,255,234,1) 100%); 
     font-family: 'Poppins';
     width: 100%;
 }
@@ -371,4 +372,7 @@ h6{
         margin-top: -15px;
         width: 100px;
     }
+    /* .dashboard{
+        height: 100vh;
+    } */
 }

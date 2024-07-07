@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -128,6 +128,106 @@ function stopPropagation(event) {
                document.removeEventListener('click', closeSubmenuOnClickOutside);
             }
         }
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Card</title>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    background-color: #0090D4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.navigation button:disabled {
+    background-color: #cccccc;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="card">
+        <div class="question-container">
+            <p class="question" id="question">Question will appear here</p>
+        </div>
+        <div class="navigation">
+            <button id="prev" onclick="prevQuestion()">Prev</button>
+            <button id="next" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+    <script>
+        const questions = [
+    "What is your name?",
+    "What is your favorite color?",
+    "What is your quest?",
+    "What is the airspeed velocity of an unladen swallow?",
+    "What is your favorite programming language?"
+];
+
+let currentQuestionIndex = 0;
+
+document.addEventListener("DOMContentLoaded", () => {
+    updateQuestion();
+});
+
+function updateQuestion() {
+    const questionElement = document.getElementById("question");
+    questionElement.textContent = questions[currentQuestionIndex];
+    document.getElementById("prev").disabled = currentQuestionIndex === 0;
+    document.getElementById("next").disabled = currentQuestionIndex === questions.length - 1;
+}
+
+function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        updateQuestion();
+    }
+}
+
+function nextQuestion() {
+    if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        updateQuestion();
+    }
+}
 
     </script>
 </body>

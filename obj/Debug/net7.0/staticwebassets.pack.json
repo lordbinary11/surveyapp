@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\surveylist.css",
+      "PackagePath": "staticwebassets\\css\\surveylist.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\SurveyApp\\wwwroot\\css\\template.css",
       "PackagePath": "staticwebassets\\css\\template.css"
     },

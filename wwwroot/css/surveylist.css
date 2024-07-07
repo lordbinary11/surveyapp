@@ -13,7 +13,8 @@
     /* Add more src declarations for other font formats if needed */
 }
 body{
-    background: linear-gradient(90deg, rgba(229,228,246,1) 0%, rgba(226,255,234,1) 100%);
+    background: rgb(229,228,246);
+    background: linear-gradient(90deg, rgba(229,228,246,1) 0%, rgba(226,255,234,1) 100%); 
     font-family: 'Poppins';
     width: 100%;
 }
@@ -74,6 +75,16 @@ nav a:hover{
     align-items: center;
     margin-right: 20px;
 }
+.logging-btns li:nth-child(2){
+    width: 10%;
+    height: 30px;
+    background-color: #0E51FD;
+    border-radius: 10px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menu, .arrow{
     fill: #fff;
 }
@@ -121,19 +132,19 @@ nav a:hover{
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-
 }
+
 .itm-1{
     color: #fff;
     font-size: large;
     text-align: center;
     font-weight: bolder;
     font-size: 22px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 .sidebar ul{
-    margin-top: 20px;
+    margin-top: 30px;
    list-style: none;
    display: flex;
    flex-direction: column;
@@ -178,11 +189,6 @@ nav a:hover{
     flex-direction: column;
     bottom: 0;
 }
-h6{
-    width: 75%;
-    color: white;
-    font-weight: normal;
-}
 .cont-us div{
     width: 60%;
     height: 30%;
@@ -204,108 +210,177 @@ h6{
 .hideOnLogOut{
     display: none;
 }
-.title{
+
+.dashboard{
+    width: 100%;
+    height: 550px;
+    background: rgb(229,228,246);
+    background: linear-gradient(90deg, rgba(229,228,246,1) 0%, rgba(226,255,234,1) 100%); 
+    padding-top: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    height: 100vh;
-    color: #fff;
-    background-image: url(../images/sv.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; /* This line fixes the background image */
 }
-.container{
-    width: 80%;
-    height: 150px;
-    background-color: rgba(0, 0, 0, 0.219);
+.panel{   
+    font-family: 'Inter';
+    margin-left: 20px;
+    width: 18%;
+    height: 90%;
+    border-radius: 25px;
+    background-color: #0090D4;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.item-1{
+    color: #fff;
+    font-size: large;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.abt-us{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    width: 100%;
-    justify-content: center;
-}
-.abt{
-    flex-basis: 40%;
-    margin-right: 50px;
-}
-.img{
-    flex-basis: 30%;
-    background-image: url(../images/sv.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.mission-cont{
-    background-color: #C7FFDE;
+    font-weight: bolder;
+    font-size: 22px;
     margin-top: 50px;
-    padding-top: 50px;
 }
-.mission-cont h1{
-    text-align: center;
+.panel ul{
+    margin-top: 30px;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
 }
-.mission{
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
-}
-.mission h4{
-    padding-bottom: 20px;
-}
-.m-1{
-    flex-basis: 30%;
-}
-.m-2{
-    flex-basis: 30%;
-}
-.m-3{
-    flex-basis: 30%;
-}
-.footer{
-    background-color: #000;
-    width: 100%;
-    margin-top: 50px;
+.panel ul li{
+    width: 160px;
+    height: 40px;
     display: flex;
     align-items: center;
-    bottom: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
 }
-.inner-div{
-    padding-top: 30px;
-    width: 86%;
-    margin-left: auto;
-    margin-right: auto;
+.panel li:focus,.panel a:focus, .panel a:focus svg{
+    background-color:white ;
+    color: #000;
+    fill: #000;
+}
+.icons{
+    margin-right: 10px;
+}
+.panel a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
     color: #fff;
+}
+.contact-us{
+    width: 90%;
+    height: 20%;
+    background-color: #ffffff5e;
+    margin-top: 70px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h6{
+    width: 75%;
+    color: white;
+    font-weight: normal;
+}
+.contact-us div{
+    width: 60%;
+    height: 30%;
+    background-color: #00F0FF;
+    border-radius: 10px;
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.details{
+    float: right;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    width: 75%;
+    margin-left: 30px;
 }
-.inner-div h2{
-    text-align: center;
-}
-.inner-div p{
-    text-align: center;
-    font-size: 12px;
-}
-.bottom-div{
+.welcome{
+    width: 100%;
+    height: 80px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+.notification{
+    margin-right: 30px;
+    fill: #0085FF;
+}
+.wlc{
+    margin-left: 30px;
+}
+.info{
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff5e;
+    border-radius: 20px;
+    padding-right: 30px;
+}
+.container{
+    margin-top: 50px;
+    width: 100%;
+    height: 80%;
+}
+.svl{
+    overflow-y: auto; 
+    height: 90%;
+}
+h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.title{
+    margin-left: 20px;
+}
+.survey{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0085FF;
+}
 
-
-@media(max-width:800px){
+button {
+    margin-right: 20px;
+    width: 8%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #0085FF;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.edit{
+    width: 150px;
+    height: 30px;
+    background-color: #00F0FF;
+    border-radius: 10px;
+    color: #fff;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: auto;
+}
+@media(max-width:600px){
     .hideOnMobile{
         display: none;
     }
@@ -316,42 +391,25 @@ h6{
         display: block;
         margin-right: 20px;
     }
-    .title{
-        height: 400px;
+    .edit{
+        margin-top: -15px;
+        width: 100px;
     }
-    .img{
-        display: none;
+    .details{
+        width: 100%;
+        margin-left: 0;
     }
-    .abt-us{
-        align-items: center;
-        padding-left: 10px;
+    .info{
+        padding-right: 30px;
+        margin-top: 100px;
     }
-    .abt{
-        flex-basis: 100%;
-        margin-right: 0px;
-        padding-right: 10px;
-    }
-    .mission{
-        text-align: center;
-    }
-    .m-1{
-        flex-basis: 100%;
-    }
-    .m-2{
-        flex-basis: 100%;
-    }
-    .m-3{
-        flex-basis: 100%;
-    }
-    .m-2, .m-3{
-        margin-top: 20px;
-    }
-    .bottom-div{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 60px;
-    }
+}
 
+@media (min-width:601px) and (max-width:992px){
+    .panel{
+        margin-top: 150px;
+    }
+    .info{
+        margin-top: 100px;
+    }
 }

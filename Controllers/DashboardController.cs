@@ -6,4 +6,9 @@ public class DashboardController : Controller
     {
         return View();
     }
+
+    public IActionResult Surveylist()
+    {
+        return View();
+    }
 }
